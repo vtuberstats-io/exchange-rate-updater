@@ -1,0 +1,21 @@
+{
+  "name": "exchange-rate-updater",
+  "version": "0.0.1",
+  "description": "a component of vtuberstats.io",
+  "author": "darkyzhou",
+  "private": true,
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "devspace dev",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "exit-hook-plus": "0.2.0",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.6.3",
+    "prettier": "^2.2.1"
+  }
+}
